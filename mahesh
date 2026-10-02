@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CRAZY MAHESH | Official Links</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #111, #252525, #000);
+            color: white;
+        }
+
+        .container {
+            max-width: 500px;
+            margin: auto;
+            padding: 45px 20px;
+            text-align: center;
+        }
+
+        .profile {
+            width: 115px;
+            height: 115px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid white;
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            margin: 5px 0;
+            font-size: 29px;
+        }
+
+        .username {
+            color: #aaa;
+            margin-bottom: 10px;
+        }
+
+        .bio {
+            color: #ddd;
+            line-height: 1.5;
+            margin-bottom: 28px;
+        }
+
+        .link {
+            display: block;
+            width: 100%;
+            padding: 17px;
+            margin: 15px 0;
+            border-radius: 15px;
+            text-decoration: none;
+            color: white;
+            font-size: 17px;
+            font-weight: bold;
+            transition: 0.25s;
+        }
+
+        .link:hover {
+            transform: translateY(-3px) scale(1.02);
+        }
+
+        .youtube {
+            background: #ff0000;
+        }
+
+        .instagram {
+            background: linear-gradient(
+                45deg,
+                #feda75,
+                #d62976,
+                #4f5bd5
+            );
+        }
+
+        .telegram {
+            background: #229ed9;
+        }
+
+        .other {
+            background: #333;
+        }
+
+        .footer {
+            margin-top: 30px;
+            color: #888;
+            font-size: 13px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Apni photo ka naam profile.jpg rakho -->
+        <img src="profile.jpg" class="profile" alt="CRAZY MAHESH">
+
+        <h1>CRAZY MAHESH</h1>
+
+        <div class="username">
+            @CrazyMahesh
+        </div>
+
+        <p class="bio">
+            🎬 Content Creator | YouTuber<br>
+            🔥 Follow my official accounts 👇
+        </p>
+
+        <!-- YouTube -->
+        <a
+            href="https://youtube.com/@onkbd05?si=k33c9Q1cZLZpGKJd"
+            target="_blank"
+            class="link youtube">
+            🔴 YouTube
+        </a>
+
+        <!-- Instagram -->
+        <a
+            href="https://www.instagram.com/mahesh.clip?stkn=MW56dW1nMjU1cTlpZQ=="
+            target="_blank"
+            class="link instagram">
+            📸 Instagram
+        </a>
+
+        <!-- Telegram -->
+        <a
+            href="YOUR_TELEGRAM_LINK"
+            target="_blank"
+            class="link telegram">
+            📲 Telegram
+        </a>
+
+        <!-- Other -->
+        <a
+            href="YOUR_OTHER_LINK"
+            target="_blank"
+            class="link other">
+            🔗 Other Links
+        </a>
+
+        <div class="footer">
+            © 2026 CRAZY MAHESH
+        </div>
+
+    </div>
+
+</body>
+</html>
